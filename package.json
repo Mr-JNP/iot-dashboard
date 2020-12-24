@@ -8,6 +8,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.3.0",
     "@antv/g2plot": "^2.3.4",
     "@opd/g2plot-react": "^2.5.0",
     "antd": "^4.9.4",
