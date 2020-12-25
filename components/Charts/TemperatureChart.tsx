@@ -3,7 +3,7 @@ import AreaChart from "./AreaChart";
 
 type LineData = {
   time: string;
-  temperature: number;
+  value: number;
 };
 type Props = {
   data: LineData[];
@@ -13,7 +13,7 @@ const getConfig = (data: LineData[]): AreaChartProps => ({
   height: 450,
   meta: { value: { maxLimit: 60 } },
   xField: "time",
-  yField: "temperature",
+  yField: "value",
   smooth: true,
   annotations: [
     {
